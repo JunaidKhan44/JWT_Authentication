@@ -39,7 +39,7 @@ public class JwtAunthenticationFilter extends OncePerRequestFilter {
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 		
 		//get jwt
 		//Bearer
