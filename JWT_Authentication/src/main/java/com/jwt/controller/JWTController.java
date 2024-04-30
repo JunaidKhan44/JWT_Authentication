@@ -56,7 +56,7 @@ public class JWTController {
 			throw new Exception("Bad Request Exception...");
 		}
 
-		//fine user...
+		
 		UserDetails userDetails=
 				this.customUserDetailServices.loadUserByUsername(jwtRequest.getUserName());
 		
